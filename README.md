@@ -58,7 +58,7 @@ Possibly add the ability to play a card defensively to reduce damage by half
 ## To start:
 
   * Install dependencies with `mix deps.get`
-  * Create and migrate database with `mix ecto.create && mix ecto.migrate`
+  * Create and migrate the database with `mix ecto.create && mix ecto.migrate`
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
 
