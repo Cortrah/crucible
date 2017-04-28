@@ -26,6 +26,10 @@ Add timing to the equation, anybody can attack anyone at any time, but
 
 Make it space combat, kind of a "Faster Than Light" clone, but with fleet combat and weapons from stars for the cards.
 
+## A Sketch
+
+![a layout](./design/WaypointCrucible.jpeg)
+
 The story is that there is an errant WayPoint Jumpgate that sucks in everyone, only one can leave.
 
 If there is time create bots
@@ -49,10 +53,15 @@ Possibly add the ability to play a card defensively to reduce damage by half
 ## Relevant References
     
 [A book](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
+[It's Source](https://pragprog.com/titles/lhelph/source_code)
+
     
 [An article](http://theerlangelist.com/article/spawn_or_not)
+[It's Repo](https://github.com/sasa1977/erlangelist/tree/dc7cd1d2c77e52fa0a3a90f269c0f4ca8cca908b/examples/blackjack)
+
     
-[A repo and presentation](https://github.com/JEG2/hanabi_umbrella#long-term-storage)
+[A Presentation](https://www.youtube.com/watch?v=xzY1C_O3gDk&index=6&list=PLE7tQUdRKcyaMEekS1T32hUw19UxzqBEo)
+[It's Repo](https://github.com/JEG2/hanabi_umbrella#long-term-storage)
 
 
 ## To start:
