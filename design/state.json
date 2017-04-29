@@ -1,0 +1,37 @@
+crucible
+  maxMana
+  maxHealth
+  startingDeck
+  startingHand
+  maxCards
+  maxDeck
+  manaGrowthRate
+  manaReplentishRate
+  drawRate
+  bleedOutRate
+
+waypoint
+  status
+  players
+  inFlight
+
+player
+  maxMana
+  maxHealth
+  maxCards
+  maxDeck
+  mana
+  health
+  cards
+  deck
+
+cards
+  0 suspect goods, garbage pail, nuts and bolts, scrap pile
+  1 mini bolt
+  2 alpha torpedo
+  3 beta torpedo
+  4 delta toppedo
+  5 angry man
+  6 mega bolt
+  7 pile driver
+  8 nasty canasta
