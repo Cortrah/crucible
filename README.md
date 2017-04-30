@@ -39,7 +39,7 @@ and robots are under General Scum.
 
 The human players are the dogs and need to try to cooperate to defeat the ai bots which might have personalities or strategies or both. (A personality might be how frequently you change your strategy (or to what) based on how frustrated you are or by other semi-arbitrary things such as a lack of success or a sense of patterns, even smack talk?)
 
-Possibly add the ability to play a card defensively to reduce damage by half
+Possibly add shields, which would be in the form of a second button to draw from your deck, you can draw a mistle or a shield either way the number is the same but the card that results will be either offensive or defensive, the defensive card would fade after a certain timeout period.
 
 ## Possible Strategies
     
