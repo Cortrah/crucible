@@ -39,7 +39,7 @@ and robots are under General Scum.
 
 The human players are the dogs and need to try to cooperate to defeat the ai bots which might have personalities or strategies or both. (A personality might be how frequently you change your strategy (or to what) based on how frustrated you are or by other semi-arbitrary things such as a lack of success or a sense of patterns, even smack talk?)
 
-Possibly add shields, which would be in the form of a second button to draw from your deck, you can draw a mistle or a shield either way the number is the same but the card that results will be either offensive or defensive, the defensive card would fade after a certain timeout period.
+Possibly add shields, which would be in the form of a second button to draw from your deck, you can draw a mistle or a shield either way the number is the same but the card that results will be either offensive or defensive, the defensive shield would fade in strength after a certain timeout period, say a point per second.
 
 ## Possible Strategies
     
@@ -49,6 +49,53 @@ Possibly add shields, which would be in the form of a second button to draw from
         * The absolute state of play
         * Because of patterns in others play
         * To shift our own pattern of play by some strategy
+    
+## State
+    crucible
+      maxMana
+      maxHealth
+      startingDeck
+      startingHand
+      maxCards
+      maxDeck
+      manaGrowthRate
+      manaReplentishRate
+      drawRate
+      fireRate
+      bleedOutRate
+      shieldDecayRate
+    
+    waypoint
+      status
+      players
+      inFlight
+    
+    player
+      maxMana
+      maxHealth
+      maxCards
+      maxDeck
+      mana
+      health
+      cards
+      deck
+    
+    cards
+      0 nerfball | paper bag
+      1 old rounds | golf umbrella
+      2 bb bolt | elephant hide
+      3 mini bolt | turtle shell
+      4 magnum pod | flack jacket
+      5 angry man | rage deflector
+      6 mega bolt | mega absorber
+      7 neutrino driver | neutrino barrier
+      8 phase torpedo | phase shield
+      
+## Commands
+    draw mistle
+    draw shield
+    play card target
+      
     
 ## Relevant References
     
