@@ -79,6 +79,8 @@ Possibly add shields, which would be in the form of a second button to draw from
       health
       cards
       deck
+      drawEnabled
+      bleedingOut
     
     cards
       0 nerfball | paper bag

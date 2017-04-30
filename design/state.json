@@ -1,37 +1,42 @@
 crucible
-  maxMana
-  maxHealth
-  startingDeck
-  startingHand
-  maxCards
-  maxDeck
-  manaGrowthRate
-  manaReplentishRate
-  drawRate
-  bleedOutRate
+maxMana
+maxHealth
+startingDeck
+startingHand
+maxCards
+maxDeck
+manaGrowthRate
+manaReplentishRate
+drawRate
+fireRate
+bleedOutRate
+shieldDecayRate
 
 waypoint
-  status
-  players
-  inFlight
+status
+players
+inFlight
 
 player
-  maxMana
-  maxHealth
-  maxCards
-  maxDeck
-  mana
-  health
-  cards
-  deck
+maxMana
+maxHealth
+maxCards
+maxDeck
+mana
+health
+cards
+deck
+drawEnabled
+bleedingOut
 
 cards
-  0 suspect goods, garbage pail, nuts and bolts, scrap pile
-  1 mini bolt
-  2 alpha torpedo
-  3 beta torpedo
-  4 delta toppedo
-  5 angry man
-  6 mega bolt
-  7 pile driver
-  8 nasty canasta
+0 nerfball | paper bag
+1 old rounds | golf umbrella
+2 bb bolt | elephant hide
+3 mini bolt | turtle shell
+4 magnum pod | flack jacket
+5 angry man | rage deflector
+6 mega bolt | mega absorber
+7 neutrino driver | neutrino barrier
+8 phase torpedo | phase shield
+      
