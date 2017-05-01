@@ -52,35 +52,40 @@ Possibly add shields, which would be in the form of a second button to draw from
     
 ## State
     crucible
-      maxMana
-      maxHealth
-      startingDeck
-      startingHand
-      maxCards
-      maxDeck
-      manaGrowthRate
-      manaReplentishRate
-      drawRate
-      fireRate
-      bleedOutRate
-      shieldDecayRate
+      maxMana:10
+      maxHealth:30
+      startingDeck:20
+      startingHand: 0 | 3
+      maxCards:5
+      manaGrowthRate: 1 per 3 seconds
+      manaReplentishRate: 1 per 1 second
+      drawRate: 1 per 1 second
+      fireRate: 2 per 1 second
+      bleedOutRate: 1 per 2 seconds
+      shieldDecayRate: 1 per 1 second
     
     waypoint
-      status
-      players
-      inFlight
+      status: "preparing" | "playing" | "complete"
+      timer: "0"
+      commands: []
+      events: []
+      players: []
+      inFlight: []
+      trajectory: 4 seconds
     
     player
-      maxMana
-      maxHealth
-      maxCards
-      maxDeck
-      mana
-      health
-      cards
-      deck
-      drawEnabled
-      bleedingOut
+      maxMana:10
+      maxHealth:30
+      maxCards:5
+      startingDeck:20
+      mana:0
+      health:30
+      shields:0
+      cards:[]
+      deck:[]
+      drawEnabled: true
+      bleedingOut: false
+      alive: true
     
     cards
       0 nerfball | paper bag
