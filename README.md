@@ -118,6 +118,9 @@ Possibly add shields, which would be in the form of a second button to draw from
 [It's Repo](https://github.com/JEG2/hanabi_umbrella#long-term-storage)
 
 
+[A decent Medium Article](https://medium.com/@benhansen/lets-build-a-slack-clone-with-elixir-phoenix-and-react-part-1-project-setup-3252ae780a1)
+[It's Repo](https://github.com/bnhansn/sling)
+
 ## To start:
 
   * Install dependencies with `mix deps.get`
