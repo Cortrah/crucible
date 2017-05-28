@@ -103,7 +103,31 @@ Possibly add shields, which would be in the form of a second button to draw from
     draw shield
     play card target
       
-    
+## Modules
+
+Ok so looking at the design what are the modules?
+
+Lobby
+
+Game
+
+Tabletop
+
+Helm ( a player with a view of the other players )
+
+Player
+
+Deck (a deck has a sequence of values that can become either shield or mistle cards
+
+Hand
+
+Cards (both shield and mistle cards, we'll start just with mistles)
+
+Mistle
+
+Shield
+
+
 ## Relevant References
     
 [A book](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
