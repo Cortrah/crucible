@@ -346,46 +346,18 @@ manaTick: function() {
 },
 endGame: function() {
     this.game.waypoint.status = "OVER";
-    clearInterval(this.gameIntervalId);
-    clearInterval(this.manaIntervalId);
 }
 ```
 
-Helm ( a player with a view of the other players )
+Helm (a player with a view of the other players)
 
 Player
 
 PlayerConsole
 
-MistleInFlight
-```
-       name: "MistleInFlight",
-        props: {
-            "id":{
-                required: true
-            },
-            "sourceX": {
-                default: 0
-            },
-            "sourceY": {
-                default: 0
-            },
-            "targetX": {
-                default: 0
-            },
-            "targetY": {
-                default: 0
-            },
-            "card": {
-                default: 0
-            },
-            "flightTime": {
-                default: 4
-            }
-        },
-```
+MistleInFlight  ["id", "sourceX", "sourceY", "targetX", "targetY", "card", "flightTime"]
 
-Deck (a deck has a sequence of values that can become either shield or mistle cards
+Deck (just a sequence of numeric values that can become either shield or mistle cards at the choice of the player)
 
 Hand (actual cards with a type after being drawn from the deck of values)
 
